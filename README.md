@@ -100,7 +100,7 @@ unauthorized remote connections. Here we only need to open the SSH port (22).
 
 First install Git and the build dependencies.
 
-    sudo apt install -y git bc bison flex libssl-dev make libncurses-dev
+    sudo apt install -y git bc bison flex libssl-dev make libncurses-dev debhelper
 
 Next get the source code. This will take some time.
 
@@ -111,7 +111,7 @@ Next get the source code. This will take some time.
 From the folder `linux`, create the Raspberry Pi 4 default build configuration.
 
     cd linux
-    make bcm2711_defconfig
+    make bcm2712_defconfig
 
 > Note: Go to the section [Kernel building] of the Raspberry Pi website
 to check that `bcm2711_defconfig` is the latest configuration to use for the
