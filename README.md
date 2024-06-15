@@ -7,12 +7,12 @@ Base installation of an hardened Raspberry Pi
 
 ## Hardware
 
-- Raspberry Pi 4 Model B 2019 8GB
+- Raspberry Pi 5 Model B 2019 8GB
 - SanDisk Extreme 32GB MicroSDHC UHS-3 Card
 
 ## Install Raspberry Pi OS
 
-Install [Raspberry Pi OS Lite (32-bit)]. After installing the OS on the SD card,
+Install [Raspberry Pi OS Lite (64-bit)]. After installing the OS on the SD card,
 create an empty file named `ssh` on the boot partition to enable remote
 connection to the Pi using SSH.
 
