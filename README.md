@@ -7,7 +7,7 @@ Base installation of an hardened Raspberry Pi
 
 ## Hardware
 
-- Raspberry Pi 5 Model B 2019 8GB
+- Raspberry Pi 5 Model 2024 8GB
 - SanDisk Extreme 32GB MicroSDHC UHS-3 Card
 
 ## Install Raspberry Pi OS
